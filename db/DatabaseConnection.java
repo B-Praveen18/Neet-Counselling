@@ -16,8 +16,8 @@ public class DatabaseConnection {
     // For Oracle with Service Name: jdbc:oracle:thin:@hostname:port/servicename
     
     private static final String DB_URL = "jdbc:oracle:thin:@localhost:1521:XE";
-    private static final String DB_USER = "system";           // Change to your Oracle username
-    private static final String DB_PASSWORD = "system123";     // Change to your Oracle password
+    private static final String DB_USER = "your_system";           // Change to your Oracle username
+    private static final String DB_PASSWORD = "your_password";     // Change to your Oracle password
     
     private static Connection connection = null;
     
